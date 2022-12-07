@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/main.ts",
-    "test": "ts-node src/test.ts"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,13 +26,17 @@
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.2.4",
     "@types/prompt-sync": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^29.3.1",
     "prettier": "2.5.1",
+    "ts-jest": "^29.0.3",
     "ts-node": "^10.7.0",
+    "tslib": "^2.4.1",
     "typescript": "^4.6.2"
   }
 }
