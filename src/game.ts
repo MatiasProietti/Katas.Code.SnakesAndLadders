@@ -2,7 +2,7 @@ import promptInitializer from "prompt-sync";
 import { Board } from "./models/board";
 import { Player } from "./models/player";
 import { SquareType } from "./models/square";
-const prompt = promptInitializer(); // This line doesn't follow best practices. This is intended to make the example simpler.
+const prompt = promptInitializer();
 
 export class Game {
   private currentTurn = 0;
@@ -69,7 +69,6 @@ export class Game {
 
   /**
    * @description Generates a random integer between 1 and 6
-   * @private
    * @returns {*}  {number}
    */
   public rollDice(): number {
