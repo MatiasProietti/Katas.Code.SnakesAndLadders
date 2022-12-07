@@ -4,6 +4,18 @@ Thanks for willing to apply to work with us. You can see our open positions [her
 
 We'd like you to solve this little coding exercise. It shouldn't take you more than one hour. The goal of the exercise is to get a glimpse of you as a developer and to be a starting point to have a conversation. 
 
+## Version compatibility
+- node: `18`
+- npm: `8`
+
+## How to run
+1. Run `npm i`
+2. Run `npm start`
+
+## How to run tests
+1. Run `npm i`
+2. Run `npm test`
+
 ## Exercise
 
 Snakes and Ladders is a board game involving two or more players rolling dice in order to move their tokens across a board. The board is made up of a collection of numbered squares and is adorned with 'snakes' and 'ladders', which link two squares on the board- snakes link the squares downwards whilst ladders link them going upwards. This means that landing at the bottom of a ladder moves you to the top of that ladder, whereas landing on the top of a snake moves you to the bottom of that snake. The objective of the game is to get your token to the final square before your opponents do.
